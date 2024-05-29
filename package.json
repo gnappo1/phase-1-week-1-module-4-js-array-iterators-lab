@@ -1,0 +1,43 @@
+{
+  "name": "js-array-iterators-lab.git",
+  "version": "0.1.0",
+  "description": "Phase 1 JavaScript Lab on Array Iterators",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:gnappo1/phase-1-week-1-module-4-js-array-iterators-lab.git"
+  },
+  "keywords": [
+    "javascript",
+    "arrays",
+    "functions",
+    "iterators",
+    "flatiron"
+  ],
+  "author": "Matteo Piccini",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/gnappo1/phase-1-week-1-module-4-js-array-iterators-lab/issues"
+  },
+  "homepage": "https://github.com/gnappo1/phase-1-week-1-module-4-js-array-iterators-lab#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "chai": "4.1.2",
+    "file-system": "2.2.2",
+    "jsdom": "9.2.1",
+    "mocha": "5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "mocha-multi": "1.0.1",
+    "chai-spies-next": "^0.9.3"
+  },
+  "dependencies": {
+    "sinon": "^7.3.2"
+  }
+}
